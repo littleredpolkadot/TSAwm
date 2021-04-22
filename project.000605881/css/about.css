@@ -1,0 +1,25 @@
+.about-page-section {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-info,
+.about-page-image {
+  flex: 50%;
+}
+
+.about-info p {
+  font-size: 22px;
+}
+
+@media (max-width: 600px) {
+  .about-page-section {
+    flex-direction: column;
+  }
+
+  .about-info,
+  .about-page-image {
+      margin: 10px 0;
+  }
+}
